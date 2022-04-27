@@ -1,4 +1,7 @@
-import ReactDOM from 'react-dom';
 import Root from './modules/templates/Root/';
 
-ReactDOM.render(<Root />, document.getElementById('root'));
+// After
+import { createRoot } from 'react-dom/client';
+const container = document.getElementById('root');
+const root = createRoot(container!); 
+root.render(<Root />);
