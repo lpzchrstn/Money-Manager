@@ -4,7 +4,7 @@
   "description": "Manage your finances",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --config webpack/webpack.config.js --open"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,23 @@
   "bugs": {
     "url": "https://github.com/lpzchrstn/Money-Manager/issues"
   },
-  "homepage": "https://github.com/lpzchrstn/Money-Manager#readme"
+  "homepage": "https://github.com/lpzchrstn/Money-Manager#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.0",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
 }
