@@ -1,0 +1,20 @@
+{
+  "name": "money-manager",
+  "version": "1.0.0",
+  "description": "Manage your finances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpzchrstn/Money-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpzchrstn/Money-Manager/issues"
+  },
+  "homepage": "https://github.com/lpzchrstn/Money-Manager#readme"
+}
